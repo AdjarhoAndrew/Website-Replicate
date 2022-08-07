@@ -1,4 +1,5 @@
-.body{background-color: rgb(255, 225, 181);
+.body {
+  background-color: rgb(255, 225, 181);
 }
 .logonav {
   margin-top: 20px;
@@ -16,7 +17,7 @@
 }
 a:hover {
   background-color: rgb(219, 229, 238);
-  padding: 10px;
+  padding: 10px; transition:ease-in;
 }
 .navtal {
   color: white;
@@ -89,7 +90,7 @@ a:hover {
 .container2 {
   display: flex;
   margin-top: 170px;
-  background-color: rgb(255, 236, 238);
+  background-color:
   margin-top: 100px;
 }
 .con2img {
@@ -98,6 +99,20 @@ a:hover {
   margin-top: 5px;
   margin-right: 50px;
   margin-top: 80px;
+}
+.con23img {
+  width: 1422px;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  margin-left: 3px;
+  margin-right: 0%;
+  mix-blend-mode:multiply;
+  padding-left: 0px;
+  padding-right: px;
+  opacity: 0.7;
+  margin-bottom: 140px;
+  
 }
 
 .con2h1 {
@@ -143,7 +158,7 @@ a:hover {
   font-size: 40px;
   width: 450px;
   margin-left: 130px;
-  margin-top: 110px;
+  margin-top: 220px;
 }
 .con3bttn {
   font-size: 13px;
@@ -194,7 +209,8 @@ a:hover {
 .containerflex {
   display: flex;
   background-color: rgb(255, 238, 215);
-  justify-content: center; padding-bottom: 30px;
+  justify-content: center;
+  padding-bottom: 30px;
 }
 .flexcon {
   text-align: center;
@@ -212,12 +228,39 @@ a:hover {
   font-size: 50px;
   margin-top: 100px;
 }
-.imgline{position: absolute; left: 30px; margin-bottom: 50px;
-width: 330px;}
-.flexcon:hover{ background-color: black; color: white;}
-.footer{background-color: black; display: flex; margin-top: px;}
-.footer>div{color: white; padding: 50px; padding-right: 100px; padding-left: 100px; margin-bottom: 20px;}
-.social{width: 200px; position: relative; margin-left: 250px; padding-right: 30px;}
-.footerp{font-size: 20px; width: 500px;}
-.socialp{font-size: 20px;}
+.imgline {
+  position: absolute;
+  left: 30px;
+  margin-bottom: 50px;
+  width: 330px;
+}
+.flexcon:hover {
+  background-color: black;
+  color: white;
+}
+.footer {
+  background-color: black;
+  display: flex;
+  margin-top: px;
+}
+.footer > div {
+  color: white;
+  padding: 50px;
+  padding-right: 100px;
+  padding-left: 100px;
+  margin-bottom: 20px;
+}
+.social {
+  width: 200px;
+  position: relative;
+  margin-left: 250px;
+  padding-right: 30px;
+}
+.footerp {
+  font-size: 20px;
+  width: 500px;
+}
+.socialp {
+  font-size: 20px;
+}
 

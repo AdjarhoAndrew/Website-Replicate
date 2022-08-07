@@ -376,4 +376,20 @@ body {
   margin-left: 50px;
   
 }
+.section8con{background-color: rgb(220, 35, 35); width: 1300px;
+margin-left: 50px; margin-right: 50px; margin-top: 30px;
+border-radius: 20px; position: relative;}
+
+.con1{background-color: rgb(230, 34, 34); margin-left: 50px;
+margin-right: 50px; border-radius: 20px;}
+
+.con1p{text-align: center; color: white; font-size: 30px; padding-top: 30px; }
+.con1>h3{font-size: 50px; text-align: center; color: white; margin-bottom: 100px;}
+ .button1{ padding: 10px; padding-left: 5px; width: 120px;
+  padding-top: 10px; padding-bottom: 10px; background-color: white; color: rgb(208, 0, 0);
+text-align: center; border-radius: 10px; cursor: pointer; margin-left: 600px;
+}
+
+
+
 
