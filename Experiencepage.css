@@ -1,6 +1,9 @@
-.Navbar {
+.body{background-color: rgb(255, 225, 181);
 }
-.logonav{margin-top: 20px; margin-left: 100px;}
+.logonav {
+  margin-top: 20px;
+  margin-left: 100px;
+}
 .Navbar a {
   float: right;
   text-decoration: none;
@@ -15,14 +18,17 @@ a:hover {
   background-color: rgb(219, 229, 238);
   padding: 10px;
 }
-.navtal{ color: white; background-color: rgb(198, 7, 7);padding: 10px;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: none;
-    width: 180px;
-text-align: center;
-border-bottom-right-radius: 10px;
+.navtal {
+  color: white;
+  background-color: rgb(198, 7, 7);
+  padding: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  width: 180px;
+  text-align: center;
+  border-bottom-right-radius: 10px;
 }
 
 .container1 {
@@ -39,7 +45,6 @@ border-bottom-right-radius: 10px;
   font-size: 45px;
   margin-left: 100px;
   margin-top: 10px;
-  
 }
 .conp {
   font-size: 24px;
@@ -63,35 +68,156 @@ border-bottom-right-radius: 10px;
   color: white;
   font-size: 17px;
   margin-left: 100px;
+  cursor: pointer;
 }
 
 .bttn2 {
-    background-color: rgb(92, 90, 90);
-    padding: 10px;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: none;
-    width: 200px;
-    border-bottom-right-radius: 10px;
-    color: white;
-    font-size: 17px;
-    margin-left: 10px;
-  }
+  background-color: rgb(92, 90, 90);
+  padding: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  width: 200px;
+  border-bottom-right-radius: 10px;
+  color: white;
+  font-size: 17px;
+  margin-left: 10px;
+  cursor: pointer;
+}
 
-  .container2{ display: flex; margin-top: 170px; background-color: rgb(255, 236, 238);
-margin-top: 100px;}
-  .con2img{width: 430px;
-    margin-left: 60px;
-    margin-top: 5px;
-    margin-right: 50px;
-margin-top: 80px;}
+.container2 {
+  display: flex;
+  margin-top: 170px;
+  background-color: rgb(255, 236, 238);
+  margin-top: 100px;
+}
+.con2img {
+  width: 430px;
+  margin-left: 60px;
+  margin-top: 5px;
+  margin-right: 50px;
+  margin-top: 80px;
+}
 
-    .con2h1{font-size: 48px; width: 700px; margin-left: 150px; margin-top: 195px;}
-    .con2h2{ margin-left: 150px;   font-size: 20px; margin-top: 5px; margin-bottom: 5px;}
-    .con2p{margin-left: 150px; font-size: 23px; line-height: 2px;}
+.con2h1 {
+  font-size: 48px;
+  width: 700px;
+  margin-left: 150px;
+  margin-top: 195px;
+}
+.con2h2 {
+  margin-left: 150px;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.con2p {
+  margin-left: 150px;
+  font-size: 23px;
+  line-height: 2px;
+}
 
-    .column{float: left;}
-    
+.column {
+  float: left;
+}
+.flags {
+  position: absolute;
+  float: right;
+  margin-top: 410px;
+  margin-left: 130px;
+  width: 370px;
+  padding: 10px;
+  display: flex;
+}
+.countries {
+  background-color: white;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
 
-  
+.con3h1 {
+  font-size: 40px;
+  width: 450px;
+  margin-left: 130px;
+  margin-top: 110px;
+}
+.con3bttn {
+  font-size: 13px;
+  display: flex;
+  padding-left: 38px;
+  margin-left: 100px;
+  color: grey;
+}
+.h13 {
+  margin-right: 30px;
+  background-color: rgb(244, 244, 244);
+  padding: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.h14 {
+  margin-right: 30px;
+  background-color: rgb(244, 244, 244);
+  padding: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.con4h1 {
+  font-size: 40px;
+  width: 450px;
+  margin-left: 130px;
+  margin-top: 100px;
+  margin-top: 60px;
+}
+
+.line1 {
+  position: absolute;
+  left: 1098px;
+}
+
+.containerflex {
+  display: flex;
+  background-color: rgb(255, 238, 215);
+  justify-content: center; padding-bottom: 30px;
+}
+.flexcon {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 65px;
+  background-color: white;
+  width: 300px;
+  border-radius: 15px;
+  padding-bottom: 30px;
+  margin-right: 30px;
+}
+.con5p {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 100px;
+}
+.imgline{position: absolute; left: 30px; margin-bottom: 50px;
+width: 330px;}
+.flexcon:hover{ background-color: black; color: white;}
+.footer{background-color: black; display: flex; margin-top: px;}
+.footer>div{color: white; padding: 50px; padding-right: 100px; padding-left: 100px; margin-bottom: 20px;}
+.social{width: 200px; position: relative; margin-left: 250px; padding-right: 30px;}
+.footerp{font-size: 20px; width: 500px;}
+.socialp{font-size: 20px;}
+

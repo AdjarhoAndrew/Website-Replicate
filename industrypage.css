@@ -12,10 +12,14 @@ body {
   float: left;
   text-align: center;
   text-decoration: none;
-  margin-left: 100px;
+  margin-left: 125px;
   color: black;
   font-size: 17px;
 }
+.Navbar a:hover{background-color: rgb(200, 200, 200); padding-bottom: 20px;
+  padding-right: 10px; width: 100px; opacity: 0.5;
+}
+
 .navimg {
   float: left;
   margin-right: 50px;
@@ -23,18 +27,19 @@ body {
 }
 .thumbsenrol {
   padding-top: 50px;
-
   text-align: center;
   text-decoration: none;
-  margin-left: 100px;
+  margin-left: 50px;
   color: black;
   font-size: 17px;
+  position: absolute;
 }
+
 .thumbs {
   width: 26px;
   margin-top: 50px;
-  margin-left: 20px;
-
+  margin-left: 90px;
+  position: absolute;
   background-color: rgb(236, 19, 19);
   border-radius: 100px;
 }
@@ -151,6 +156,7 @@ body {
   color: white;
   width: 300px;
   margin-right: 30px;
+  position: relative;
 }
 .box2 {
   background-color: white;
@@ -159,6 +165,7 @@ body {
   color: black;
   width: 300px;
   margin-right: 30px;
+  position: relative;
 }
 .box3 {
   background-color: white;
@@ -166,12 +173,14 @@ body {
   border-radius: 20px;
   color: black;
   width: 300px;
+  position: relative;
 }
 .boximg {
   float: right;
-  width: 100px;
-  margin-top: 5px;
-  margin: top 50px;
+  width: 110px;
+  right: 0px;
+  top: 0;
+  position: absolute;
 }
 .h1 {
   font-size: 50px;
@@ -182,7 +191,7 @@ body {
 }
 .pbox1 {
   font-size: 20px;
-  margin-top: 98px;
+  margin-top: 50px;
 }
 
 .boxcontainer2 {
@@ -198,6 +207,7 @@ body {
   color: rgb(0, 0, 0);
   width: 300px;
   margin-right: 30px;
+  position: relative;
 }
 .box5 {
   background-color: white;
@@ -206,6 +216,7 @@ body {
   color: black;
   width: 300px;
   margin-right: 30px;
+  position: relative;
 }
 .box6 {
   background-color: white;
@@ -213,6 +224,7 @@ body {
   border-radius: 20px;
   color: black;
   width: 300px;
+  position: relative;
 }
 
 .section5 {
@@ -256,6 +268,7 @@ body {
   width: 150px;
   font-size: 20px;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .flexcontainer {
@@ -274,10 +287,19 @@ body {
   padding-top: 20px;
 }
 
-.fleximg{width: 45px;}
-.flexh1{font-size: 25px;}
-.flexp{font-size: 18px; padding-top: 20px;}
-.fleximgfig{width: 85px;}
+.fleximg {
+  width: 45px;
+}
+.flexh1 {
+  font-size: 25px;
+}
+.flexp {
+  font-size: 18px;
+  padding-top: 20px;
+}
+.fleximgfig {
+  width: 85px;
+}
 
 .enrolb1 {
   padding-right: 50px;
@@ -291,5 +313,67 @@ body {
   border-radius: 10px;
   margin-left: 600px;
   cursor: pointer;
-margin-top: 40px;
-margin-bottom: 20px;}
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.sec6p {
+  color: rgb(216, 10, 10);
+  font-size: 25px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.sec6h1 {
+  margin-left: 100px;
+  font-size: 40px;
+  width: 600px;
+}
+.sec6img {
+  position: relative;
+  width: 150px;
+  left: 600px;
+}
+
+.sec7p {
+  position: relative;
+  text-align: center;
+  font-size: 28px;
+  color: rgb(214, 0, 0);
+  left: 5px;
+}
+.sec7h1 {
+  position: relative;
+  left: 5px;
+  text-align: center;
+  font-size: 45px;
+}
+.sec7p2 {
+  text-align: center;
+  position: relative;
+  left: 5px;
+  font-size: 20px;
+}
+.sec7img {
+  position: relative;
+  width: 150px;
+  left: 200px;
+}
+.sec7img2 {
+  float: right;
+  width: 150px;
+  margin-right: 150px;
+}
+
+.zuribox {
+  display:inline-block;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  margin: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: 60px;
+  margin-left: 50px;
+  
+}
+
