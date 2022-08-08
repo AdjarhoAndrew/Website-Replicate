@@ -16,8 +16,12 @@ body {
   color: black;
   font-size: 17px;
 }
-.Navbar a:hover{background-color: rgb(200, 200, 200); padding-bottom: 20px;
-  padding-right: 10px; width: 100px; opacity: 0.5;
+.Navbar a:hover {
+  background-color: rgb(200, 200, 200);
+  padding-bottom: 20px;
+  padding-right: 10px;
+  width: 100px;
+  opacity: 0.5;
 }
 
 .navimg {
@@ -35,15 +39,10 @@ body {
   position: absolute;
 }
 
-.thumbs {
-  width: 26px;
-  margin-top: 50px;
-  margin-left: 90px;
-  position: absolute;
-  background-color: rgb(236, 19, 19);
-  border-radius: 100px;
+.enrolTB{ position: relative; float: right
+; bottom: 0px; display: flex; top: 20px; margin-right: 0px;
+padding: 5px; font-size:20px;  width: 220px; text-align: center;
 }
-
 .Containers {
   display: flex;
   justify-content: center;
@@ -67,9 +66,10 @@ body {
 .para1 {
   font-size: 53px;
   padding-left: 50px;
+  width: 570px;
 }
 .para2 {
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
   padding-right: 60px;
   margin-top: 50px;
@@ -271,6 +271,22 @@ body {
   cursor: pointer;
 }
 
+.button4{display: flex;}
+.TandM {
+  
+  position: relative;
+  width: 180px;
+  padding: 10px;
+  padding-left: 10px;
+  margin-top: 20px;
+  border: solid white;
+  border-radius: 40px;
+  font-size: 15px;
+  color: white;
+  margin-top: 40px;
+  
+}
+
 .flexcontainer {
   display: flex;
   justify-content: center;
@@ -363,33 +379,105 @@ body {
   width: 150px;
   margin-right: 150px;
 }
+.zuricflex{display: flex;}
 
 .zuribox {
-  display:inline-block;
+width: 600px;
   background-color: black;
   color: white;
-  border-radius: 15px;
-  margin: 5px;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-right: 60px;
+  border-radius: 20px;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 20px;
+  margin-right: 10px;
   margin-left: 50px;
-  
+  text-align: left;
 }
-.section8con{background-color: rgb(220, 35, 35); width: 1300px;
-margin-left: 50px; margin-right: 50px; margin-top: 30px;
-border-radius: 20px; position: relative;}
+.zuribox>h1{font-size: 40px;}
 
-.con1{background-color: rgb(230, 34, 34); margin-left: 50px;
-margin-right: 50px; border-radius: 20px;}
-
-.con1p{text-align: center; color: white; font-size: 30px; padding-top: 30px; }
-.con1>h3{font-size: 50px; text-align: center; color: white; margin-bottom: 100px;}
- .button1{ padding: 10px; padding-left: 5px; width: 120px;
-  padding-top: 10px; padding-bottom: 10px; background-color: white; color: rgb(208, 0, 0);
-text-align: center; border-radius: 10px; cursor: pointer; margin-left: 600px;
+.section8con {
+  background-color: rgb(220, 35, 35);
+  width: 1300px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+  border-radius: 20px;
+  position: relative;
 }
 
+.con1 {
+  background-color: rgb(230, 34, 34);
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 20px;
+  height: 500px;
+}
 
+.con1p {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  padding-top: 30px;
+}
+.con1 > h3 {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  margin-bottom: 100px;
+}
+.button1 {
+  padding: 10px;
+  padding-left: 5px;
+  width: 120px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  color: rgb(208, 0, 0);
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 600px;
+}
 
+.curve1 {
+  position: relative;
+  top: 5px;
+}
+.curve2 {
+  position: relative;
+  bottom: 400px;
+  left: 950px;
+}
+.round {
+  position: relative;
+  width: 150px;
+  bottom: 300px;
+  margin-left: 5px;
+  right: 200px;
+}
 
+.main {
+  width: 180px;
+  position: relative;
+  bottom: 229px;
+  margin-left: 200px;
+  margin-top: 100px;
+  float: right;
+  margin-right: 50px;
+}
+
+.zurifooter {
+  padding: 60px;
+  margin-top: 50px;
+}
+.zurilogo {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.social {
+  float: right;
+  margin-left: 700px;
+  position: relative;
+  bottom: 103px;
+}
