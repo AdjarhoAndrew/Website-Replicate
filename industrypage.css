@@ -155,7 +155,7 @@ body {
 .boxcontainer1 {
   display: flex;
   justify-content: center;
-  padding-left: 40px;
+  padding-left: 5px;
 }
 
 .box1 {
@@ -206,7 +206,7 @@ body {
 .boxcontainer2 {
   display: flex;
   justify-content: center;
-  padding-left: 40px;
+  padding-left: 5px;
   padding-top: 30px;
 }
 .box4 {
@@ -315,7 +315,7 @@ body {
   display: flex;
   justify-content: center;
   padding-left: 40px;
-  padding-right: 40px;
+  padding-right: 50px;
   padding-bottom: 30px;
   
 }
