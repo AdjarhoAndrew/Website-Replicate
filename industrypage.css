@@ -60,9 +60,10 @@ body {
   width: 400px;
   mix-blend-mode: multiply;
   padding-left: 50px;
+  margin-left: 115px;
 }
 .conimg2 {
-  margin-right: 200px;
+  margin-right: 250px;
   width: 50px;
   padding-bottom: 100px;
 }
@@ -93,7 +94,7 @@ body {
   color: white;
   border: none;
   border-radius: 10px;
-  margin-left: 230px;
+  margin-left: 240px;
   cursor: pointer;
 }
 .male1 {
