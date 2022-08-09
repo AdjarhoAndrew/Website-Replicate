@@ -113,12 +113,147 @@ a {
   font-size: 17px;
   color: rgb(189, 0, 0);
 }
-  .containerbox{display:flex; }
-  .contactbox{width: 200px; padding:100px; margin-right: 10px;
-  margin-left:160px; padding-left: 10px; padding-right: 10px;}
+.containerbox {
+  display: flex;
+}
+.contactbox {
+  width: 200px;
+  padding: 100px;
+  margin-right: 10px;
+  margin-left: 160px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
+.footerp {
+  background-color: rgb(255, 255, 255);
+  padding: 60px;
+  border-top-style: solid;
+  border-top-color: rgb(201, 196, 196);
+}
+.paraf {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
 
+@media screen and (max-width: 500px) {
+  .body {
+    width: 100px;
+  }
+  .nametag {
+    margin-left: 200px;
+    width: 150px;
+    font-size: 30px;
+  }
+  .Namedescript {
+    width: 300px;
+    margin-left: 130px;
+    margin-bottom: 80px;
+    font-size: 30px;
+  }
+  .istpara {
+    width: 400px;
+    left: 5px;
+    font-size: 30px;
+    margin-right: 0px;
+    padding-left: 0px;
+    margin-left: 70px;
+    top: 220px;
+    line-height: 30px;
+  }
+  .button {
+    width: 500px;
+    margin-left: 20px;
+    margin-top: 4px;
+  }
+  .button1 {
+    margin-left: 0px;
+    margin-top: 150px;
+    width: 300px;
+    font-size: 20px;
+  }
+  .button2 {
+    margin-left: 0px;
+    margin-top: 30px;
+    width: 300px;
+    font-size: 20px;
+  }
 
-  .footerp{background-color: rgb(255, 255, 255); padding: 60px; border-top-style:solid; border-top-color: rgb(201, 196, 196);}
-  .paraf{color: rgb(0, 0, 0); text-align: center;}
-  
+  .sectiontext {
+    padding-top: 0px;
+  }
+
+  .text1 {
+    margin-left: 100px;
+    width: 300px;
+    margin-top: 0px;
+    font-size: 40px;
+    bottom: 100px;
+    padding-bottom: 0px;
+  }
+  .text1p {
+    margin-left: 50px;
+    width: 400px;
+    margin-top: 0px;
+    font-size: 30px;
+  }
+  .Mycontainerp {
+    display: block;
+    margin-left: 0px;
+  }
+  .firstflex {
+    width: 500px;
+    margin-right: 600px;
+    margin-bottom: 40px;
+    border-radius: 50px;
+  }
+
+  .secondflex {
+    width: 500px;
+    margin-right: 600px;
+    margin-bottom: 40px;
+  }
+
+  .thirdflex {
+    width: 500px;
+    margin-right: 600px;
+    margin-left: 0px;
+  }
+
+  .istarticle {
+    font-size: 30px;
+    width: 400px;
+    margin-right: 200px;
+    text-align: center;
+  }
+
+  .secondarticle {
+    font-size: 30px;
+    width: 400px;
+    text-align: center;
+  }
+
+  .thirdarticle {
+    font-size: 30px;
+    width: 400px;
+    text-align: center;
+  }
+
+  .a {
+    font-size: 100px;
+  }
+
+  .containerbox {
+    display: none;
+    font-size: 30px;
+    padding-top: 50px;
+  }
+  .paraf {
+    font-size: 20px;
+    width: 400px;
+  }
+  .footer {
+    margin-top: 40px;
+  }
+  .bimg{display: block;}
+}

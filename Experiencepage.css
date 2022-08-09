@@ -2,8 +2,10 @@
   background-color: rgb(255, 225, 181);
 }
 .logonav {
-  margin-top: 20px;
+  margin-top: 0px;
   margin-left: 100px;
+  position: relative;
+  top: 45px;
 }
 .Navbar a {
   float: right;
@@ -263,4 +265,35 @@ a:hover {
 .socialp {
   font-size: 20px;
 }
+@media screen and (max-width: 600px){
+  .Navbar{display: none;}
+  .logonav{width: 100px; margin-left: 150px;}
+  .container1{display: inline-block;}
+  .conh1{font-size: 50px; width: 400px; margin-left: 50px; list-style: none; margin-bottom: 0px;}
+  .conp{font-size: 20px; width: 400px; margin-left: 10px;}
+  .bttn1{margin-left: 30px; font-size: 15px; width: 150px;}
+  .bttn2{margin-left: 30px; font-size: 15px; width: 150px;}
+  .conimg{margin-left: 20px; width: 380px; margin-top: 50px;}
+  .container2{display: block; margin-top: 100px; }
+  .con2h1{font-size:35px; width: 350px; margin-left: 30px; margin-bottom: 100px; }
+  .con2h2{margin-top: 50px; margin-left: 39px;}
+  .con2p{margin-left: 40px;}
+  .countries{margin-right: 0px; margin-left: 20px;
+    width: 30px; bottom: 920px; position: relative; display: none;}
+  .flags{right: 0px; }
+  .con2img{ margin-left:0px; width: 400px; position: relative; right: 10px; }
+  .con3h1{font-size: 30px; margin-top:50px; margin-left:20px ;} 
+.con4h1{font-size: 22px;}
+  .containerflex{ display: block; right: 50px; top: 130px;}
+  .con3bttn{ width: 40px; position: relative ; display: flex; margin-left: 0px;}
+  .flexcon{margin-left: 20px; margin-top:20px; bottom: 30px; display: block;}
+  .con5p{margin-bottom: 0px; margin-top: 0px;}
+  .con4h1{margin-left: 30px;}
+  .h14{font-size: 35px;}
+  .consection5{padding-bottom: 50px; margin-top: 200px;}
+  .container3{padding-bottom: 100px;}
+  
+}
+  
+
 
