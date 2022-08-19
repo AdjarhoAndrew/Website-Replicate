@@ -150,7 +150,6 @@ body {
   height: fit-content;
   padding-top: 130px;
   mix-blend-mode: multiply;
-  
 }
 
 .boxcontainer1 {
@@ -255,7 +254,8 @@ body {
   margin-top: 120px;
 }
 .sec5div {
-  margin-left: 100px; padding-bottom: 50px;
+  margin-left: 100px;
+  padding-bottom: 50px;
 }
 .sec5h {
   color: white;
@@ -297,7 +297,8 @@ body {
   cursor: pointer;
 }
 
-.group2{ display: flex;
+.group2 {
+  display: flex;
   position: relative;
   padding: 2px;
   color: white;
@@ -308,9 +309,16 @@ body {
   border-radius: 50px;
   padding-left: 25px;
   box-sizing: none;
-  background-color: rgb(230, 17, 17); cursor: pointer;}
+  background-color: rgb(230, 17, 17);
+  cursor: pointer;
+}
 
-  .group21{ margin-left: 250px; position: relative; bottom: 140px; cursor: pointer;}
+.group21 {
+  margin-left: 250px;
+  position: relative;
+  bottom: 140px;
+  cursor: pointer;
+}
 
 .flexcontainer {
   display: flex;
@@ -318,7 +326,6 @@ body {
   padding-left: 40px;
   padding-right: 50px;
   padding-bottom: 30px;
-  
 }
 
 .flexcontainer > div {
@@ -513,4 +520,147 @@ body {
   margin-left: 700px;
   position: relative;
   bottom: 103px;
+}
+@media screen and (max-width: 400px) {
+  .body {
+    width: 400px;
+  }
+  .navimg {
+    width: 140px;
+  }
+  .enrolTB {
+    width: 100px;
+    margin-right: 0px;
+    display: none;
+  }
+  .Navbar {
+    width: 950px;
+  }
+  .conimg1 {
+    width: 900px;
+    position: relative;
+    padding-left: 0px;
+  }
+  .Containers {
+    display: inline-block;
+    position: relative;
+    margin-right: 200px;
+  }
+  .slogan {
+    font-size: 50px;
+  }
+  .para1 {
+    font-size: 50px;
+    text-align: center;
+    margin-left: 150px;
+  }
+  .para2 {
+    font-size: 40px;
+    margin-left: 50px;
+  }
+  .male1 {
+    display: none;
+  }
+  .enrolb {
+    width: 500px;
+  }
+  .conimg2 {
+    margin-left: 100px;
+  }
+  .container2 {
+    display: block;
+    width: 1000px;
+  }
+  .div1 {
+    font-size: 40px;
+    width: 600px;
+    text-align: center;
+    margin-left: 150px;
+  }
+  .div2 {
+    font-size: 30px;
+    width: 850px;
+    text-align: center;
+    margin-right: 130px;
+    text-align: center;
+    margin-left: 50px;
+  }
+  .divimg {
+    width: 700px;
+  }
+  .star1 {
+    display: none;
+  }
+  .secpara {
+    text-align: center;
+    font-size: 50px;
+    margin-left: 80px;
+  }
+  .sechead {
+    width: 800px;
+    margin-left: 50px;
+  }
+  .boxcontainer1 {
+    margin-left: 50px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 40px;
+    
+  }
+  .box1 {
+    width: 800px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+  }
+  .box2 {
+    width: 800px;
+    margin-bottom: 40px;
+  }
+  .box3 {
+    width: 800px;
+    margin-bottom: 40px;
+  }
+  .box3 {
+    width: 800px;
+    margin-bottom: 40px;
+  }
+  .box4 {
+    width: 800px;
+    margin-bottom: 40px;
+  }
+  .box5 {
+    width: 800px;
+    margin-bottom: 40px;
+  }
+  .box6 {
+    width: 800px;
+    margin-bottom: 40px;
+  }
+  .boxcontainer2 {
+    margin-left: 50px;
+    position: relative;
+    display: inline-block;
+    width: 500px;
+  }
+  .h1 {
+    font-size: 80px;
+  }
+  .pbox{font-size: 50px;}
+  .pbox1{font-size: 50px;}
+
+  .section6{ margin-top: 250px;}
+  .sec6p{ font-size: 60px; width: 500px; margin-left: 250px;}
+  .sec6h1{margin-left: 250px;}
+
+  .section5{display: block; width: 1100px;}
+  .sec5h{font-size: 40px;}
+  .sec5p2{font-size: 40px; width: 900px;}
+  .sec5img{ margin-left: 100px;}
+  .group1{display: none;}
+  .group2{display: none;}
+
+  .flexcontainer{ display: block; width: 800px; margin-left: 80px;
+  margin-top: 20px; padding-bottom: 40px;}
+  .flexh1{font-size: 40px;}
+  .flexp{font-size: 50px;}
 }
